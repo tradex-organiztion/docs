@@ -1,0 +1,65 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "트레이덱스 가이드",
+  "colors": {
+    "primary": "#0EA5E9",
+    "light": "#38BDF8",
+    "dark": "#0284C7"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "가이드",
+        "groups": [
+          {
+            "group": "서비스 소개",
+            "pages": ["introduction/overview"]
+          },
+          {
+            "group": "시작하기",
+            "pages": [
+              "getting-started/signup",
+              "getting-started/connect-exchange",
+              "getting-started/basic-settings",
+              "getting-started/plan-payment"
+            ]
+          },
+          {
+            "group": "핵심 기능",
+            "pages": [
+              "features/home-inbox",
+              "features/trading-principles",
+              "features/tradex-ai",
+              "features/trading-journal",
+              "features/strategy-analysis",
+              "features/risk-analysis",
+              "features/advanced-charts",
+              "features/profit-management"
+            ]
+          },
+          {
+            "group": "기타",
+            "pages": ["faq/faq"]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "topbar": {
+    "links": [
+      {
+        "name": "트레이덱스 시작하기",
+        "url": "https://app.tradex.kr"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}
