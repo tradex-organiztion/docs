@@ -37,7 +37,7 @@ description: "3분 만에 가입하고 트레이덱스를 시작해 보세요."
 
 **<kbd>거래소 API 연동하기</kbd>**
 
-<Tooltip tip="거래소 별 API를 생성하고 연동하는 방법을 알려드릴게요." headline="Q. 거래소 API 연동 방법이 궁금해요">Q. 거래소 API 연동하는 방법이 궁금해요</Tooltip>
+<Tooltip tip="거래소 별 API를 생성하고 연동하는 방법을 알려드릴게요." headline="Q. 거래소 API 연동 방법이 궁금해요" href="https://docs.tradex.so/getting-started/connect-exchange">Q. 거래소 API 연동하는 방법이 궁금해요</Tooltip>
 
 ---
 
