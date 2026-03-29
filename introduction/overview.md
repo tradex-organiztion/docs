@@ -1,6 +1,8 @@
 ---
 title: "트레이덱스 소개"
-description: "트레이덱스의 핵심 가치와 어떤 트레이더에게 적합한지 알아보세요."
+description: "트레이덱스가 만들어진 이유와 핵심 가치를 알아보세요."
+---
+
 ---
 
 ## Make Your Trading Easier
