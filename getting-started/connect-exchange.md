@@ -20,7 +20,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 | 바이비트 | API Key, API Secret |
 | 비트겟 | API Key, API Secret, Passphrase |
 
-<Tooltip tip="현재 트레이덱스는 세 가지 거래소만 지원하고 있습니다. 트레이덱스 채널을 통해 사용 거래소를 공유해주시면 빠르게 업데이트 후 공유드릴게요. " headline="Q. 다른 거래소를 사용 중인데 트레이덱스에 가입할 수 없나요?">Q. 다른 거래소를 사용 중인데 트레이덱스를 사용하고 싶어요</Tooltip>
+<Tooltip tip="현재 트레이덱스는 세 가지 거래소만 지원하고 있습니다. 트레이덱스 채널을 통해 사용 거래소를 공유해주시면 빠르게 업데이트 후 공유드릴게요. " cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. 다른 거래소를 사용 중인데 트레이덱스를 사용하고 싶어요</Tooltip>
 
 ---
 
@@ -32,7 +32,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   ![\[바이낸스\]1 1](/images/[바이낸스]1-1.png)
 </Frame>
 
-1. 바이낸스 로그인 후 우측 상단 프로필에서 **\[Account\]**를 클릭해 주세요.
+1. 바이낸스 로그인 후 우측 상단 프로필에서 \*\*\[Account\]\*\*를 클릭해 주세요.
 
 <Frame>
   ![\[바이낸스\]2](/images/[바이낸스]2.png)
