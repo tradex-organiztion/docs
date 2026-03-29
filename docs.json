@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "트레이덱스 가이드",
   "colors": {
-    "primary": "#0EA5E9",
-    "light": "#38BDF8",
-    "dark": "#0284C7"
+    "primary": "#40E899",
+    "light": "#58dc9e",
+    "dark": "#22d380"
   },
   "favicon": "/favicon.ico",
   "navigation": {
@@ -60,5 +60,6 @@
   },
   "appearance": {
     "default": "light"
-  }
+  },
+  "logo": "/images/로고블랙.svg"
 }
