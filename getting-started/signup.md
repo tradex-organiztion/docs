@@ -1,6 +1,8 @@
 ---
 title: "회원가입"
-description: "3분 만에 가입하고 트레이덱스를 시작해 보세요."
+description: "가이드를 보고 간편하게 가입하고 트레이덱스를 시작해 보세요."
+---
+
 ---
 
 ## STEP 1. 회원가입
@@ -32,18 +34,18 @@ description: "3분 만에 가입하고 트레이덱스를 시작해 보세요."
 </Frame>
 
 - 연동할 거래소를 선택하고 필요한 정보를 입력해주세요.
-- 현재 지원 거래소: 바이낸스, 바이비트, 비트겟\
-  (곧 업데이트를 통해 더 많은 거래소를 지원할 예정입니다.)
+- 현재 지원 거래소: 바이낸스, 바이비트, 비트겟
+- 곧 업데이트를 통해 더 많은 거래소를 지원할 예정입니다.
 
-**<kbd>거래소 API 연동하기</kbd>**
-
-<Tooltip tip="거래소 별 API를 생성하고 연동하는 방법을 알려드릴게요." headline="Q. 거래소 API 연동 방법이 궁금해요" href="https://docs.tradex.so/getting-started/connect-exchange">Q. 거래소 API 연동하는 방법이 궁금해요</Tooltip>
+<Tooltip tip="거래소 연동 방법을 알려드릴게요." headline="Q. 거래소 API 연동 방법이 궁금해요" cta="https://docs.tradex.so/getting-started/connect-exchange" href="https://docs.tradex.so/getting-started/connect-exchange">Q. 거래소 API 연동하는 방법이 궁금해요</Tooltip>
 
 ---
 
 ## STEP 3. 가입 완료
 
-/
-
 여기까지 완료하셨다면 트레이덱스를 이용할 준비가 끝났습니다.\
 이제 핵심 기능과 활용 방법을 알아볼까요?
+
+<Frame>
+  ![회원가입4](/images/회원가입4.png)
+</Frame>
