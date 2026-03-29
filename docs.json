@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "sequoia",
   "name": "트레이덱스 가이드",
   "colors": {
     "primary": "#0EA5E9",
@@ -61,5 +61,8 @@
   },
   "footer": {
     "socials": {}
+  },
+  "appearance": {
+    "default": "light"
   }
 }
