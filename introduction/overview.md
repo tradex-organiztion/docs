@@ -1,3 +1,8 @@
+---
+title: "소개"
+description: "트레이덱스가 만들어진 이유와 어떤 트레이더에게 적합한지 알아보세요."
+---
+
 # 소개
 
 ### Make Your Trading Easier / Stop Trading Blind, Start Trading Smart.
