@@ -15,7 +15,10 @@
         "groups": [
           {
             "group": "서비스 소개",
-            "pages": ["introduction/overview"]
+            "pages": [
+              "introduction/overview",
+              "introduction/file"
+            ]
           },
           {
             "group": "시작하기",
@@ -41,7 +44,9 @@
           },
           {
             "group": "기타",
-            "pages": ["faq/faq"]
+            "pages": [
+              "faq/faq"
+            ]
           }
         ]
       }
