@@ -32,19 +32,19 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   ![\[바이낸스\]1 1](/images/[바이낸스]1-1.png)
 </Frame>
 
-1. 바이낸스 로그인 후 우측 상단 프로필에서 **\[Account\]**를 클릭해 주세요.
+1. 바이낸스 로그인 후 우측 상단 프로필에서 **Account **페이지를 클릭해 주세요.
 
 <Frame>
   ![\[바이낸스\]2](/images/[바이낸스]2.png)
 </Frame>
 
-2. **\[API Management\] 페이지 우측 상단에서 \[Create API\]** 버튼을 클릭해 주세요.
+2. **API Management **페이지 우측 상단에서** Create API** 버튼을 클릭해 주세요.
 
 <Frame>
   ![\[바이낸스\]3](/images/[바이낸스]3.png)
 </Frame>
 
-3. API 유형에서 상단의 \*\*\[System generated\]\*\*를 선택해 주세요.
+3. API 유형에서 상단의 **System generated**를 선택해 주세요.
 
 <Frame>
   ![\[바이낸스\[4](/images/[바이낸스[4.png)
@@ -56,7 +56,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   ![\[바이낸스\]5](/images/[바이낸스]5.png)
 </Frame>
 
-5. 위 사진과 같이 **\[Enable Reading\]** 항목을 선택하면 API 생성이 완료됩니다.
+5. 위 사진과 같이 **Enable Reading **항목을 선택하면 API 생성이 완료됩니다.
 6. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 과정에서 입력해 주세요.
 
 > **⚠️ Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**\
@@ -72,27 +72,27 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   ![\[바이비트\]1](/images/[바이비트]1.png)
 </Frame>
 
-1. 바이비트 로그인 후 우측 상단 프로필에서 \*\*\[API\]\*\*를 클릭해 주세요.
+1. 바이비트 로그인 후 우측 상단 프로필에서 **API**를 클릭해 주세요.
 
 <Frame>
   ![\[바이비트\]2 1](/images/[바이비트]2-1.png)
 </Frame>
 
-2. **\[API Management\]** 페이지 우측 상단에서 **\[Create New Key\]** 버튼을 클릭해 주세요.
+2. **API Management** 페이지 우측 상단에서 **Create New Key** 버튼을 클릭해 주세요.
 
 <Frame>
   ![\[바이비트\]3](/images/[바이비트]3.png)
 </Frame>
 
-3. API 유형에서 상단의 \*\*\[System-generated API Keys\]\*\*를 선택해 주세요.
+3. API 유형에서 상단의 **System-generated API Keys**를 선택해 주세요.
 
 <Frame>
   ![\[바이비트\]4](/images/[바이비트]4.png)
 </Frame>
 
-4. **\[API Transaction\]** 항목을 선택해 주세요.
+4. **API Transaction** 항목을 선택해 주세요.
 5. API 이름을 자유롭게 입력해 주세요.
-6. 권한 설정에서 **\[Read-Only\]** 항목과 **\[No IP restriction\]** 항목을 선택해 주세요.
+6. 권한 설정에서 **Read-Only** 항목과 **No IP restriction** 항목을 선택해 주세요.
 
 <Frame>
   ![\[바이비트\]5 1](/images/[바이비트]5-1.png)
@@ -120,19 +120,19 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   ![\[비트겟\]1](/images/[비트겟]1.png)
 </Frame>
 
-1. 비트겟 로그인 후 우측 상단 프로필에서 \*\*\[API Keys\]\*\*를 클릭해 주세요.
+1. 비트겟 로그인 후 우측 상단 프로필에서 **API Keys**를 클릭해 주세요.
 
 <Frame>
   ![\[비트겟\]2 1](/images/[비트겟]2-1.png)
 </Frame>
 
-2. **\[API Keys\]** 페이지 우측 상단에서 **\[Create New Key\]** 버튼을 클릭해 주세요.
+2. **API Keys** 페이지 우측 상단에서 **Create New Key **버튼을 클릭해 주세요.
 
 <Frame>
   ![\[비트겟\]3](/images/[비트겟]3.png)
 </Frame>
 
-3. API 유형에서 상단의 \*\*\[System-generated API Key\]\*\*를 선택해 주세요.
+3. API 유형에서 상단의 **System-generated API Key**를 선택해 주세요.
 
 <Frame>
   ![\[비트겟\]4](/images/[비트겟]4.png)
@@ -140,8 +140,8 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
 4. API 이름을 자유롭게 입력해 주세요.
 5. <Tooltip tip="평소 자주 사용하는 암호를 입력해 주세요." headline="Passphrase는 API 비밀번호입니다.">Passphrase를 입력해 주세요.</Tooltip>
-6. 권한 설정에서 **\[Read-Only\]** 항목과 \*\*\[Select all\]\*\*을 선택해 모든 항목을 선택해 주세요.
-7. **\[Bind IP Addresses\]** 항목은 비워두셔도 됩니다.
+6. 권한 설정에서 **Read-Only** 항목과 **Select all**을 선택해 모든 항목을 선택해 주세요.
+7. **Bind IP Addresses **항목은 비워두셔도 됩니다.
 8. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
 9. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 과정에서 입력해 주세요.
 
