@@ -23,7 +23,6 @@
           {
             "group": "시작하기",
             "pages": [
-              "getting-started/file",
               "getting-started/signup",
               "getting-started/connect-exchange",
               "getting-started/basic-settings",
