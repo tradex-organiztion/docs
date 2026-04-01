@@ -25,8 +25,8 @@
             "pages": [
               "getting-started/signup",
               "getting-started/connect-exchange",
-              "getting-started/basic-settings",
-              "getting-started/plan-payment"
+              "getting-started/settings",
+              "getting-started/plan"
             ]
           },
           {
