@@ -45,7 +45,8 @@
           {
             "group": "기타",
             "pages": [
-              "faq/faq"
+              "faq/faq",
+              "faq/untitled-page"
             ]
           }
         ]
