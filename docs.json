@@ -39,7 +39,8 @@
               "features/strategy-analysis",
               "features/risk-analysis",
               "features/advanced-charts",
-              "features/profit-management"
+              "features/profit-management",
+              "features/file"
             ]
           },
           {
