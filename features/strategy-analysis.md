@@ -56,7 +56,7 @@ description: "내 매매 데이터를 분석해 전략 별 성과와 주요 손�
 
 - <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">기댓값(Expectancy)</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
 - **표본 신뢰도**: 거래 횟수에 따른 전략의 유효성을 검증을 위한 지표입니다. 만약 해당 전략으로 실행한 거래의 횟수가 적다면 승률과 기대값이 높더라도 운이 좋았을 가능성이 높습니다.
-- **승률 신뢰구간**: 같은 동전을 100번 던지더라도 매번 50%의 확률이 나오는 것은 아닙니다. 이처럼 승률은 현재까지의 결과지만 앞으로의 승률을 보장하지는 않습니다.
+- <Tooltip tip="승률 신뢰구간의 개념에 대한 설명입니다." headline="Q. 승률 신뢰구간이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">승률 신뢰구간</Tooltip>: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
 
 ---
 
