@@ -45,8 +45,8 @@
           {
             "group": "기타",
             "pages": [
-              "etc/faq",
-              "etc/concept"
+              "etc/concept",
+              "etc/faq"
             ]
           }
         ]
