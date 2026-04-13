@@ -54,9 +54,9 @@ description: "내 매매 데이터를 분석해 전략 별 성과와 주요 손�
 
 단순 거래 승률보다 더 신뢰도 높은 지표로 전략의 유효성을 검증할 수 있어요.
 
-- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">기댓값(Expectancy)</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
+- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">**기댓값(Expectancy)**</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
 - **표본 신뢰도**: 거래 횟수에 따른 전략의 유효성을 검증을 위한 지표입니다. 만약 해당 전략으로 실행한 거래의 횟수가 적다면 승률과 기대값이 높더라도 운이 좋았을 가능성이 높습니다.
-- <Tooltip tip="승률 신뢰구간의 개념에 대한 설명입니다." headline="Q. 승률 신뢰구간이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">승률 신뢰구간</Tooltip>: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
+- <Tooltip tip="승률 신뢰구간의 개념에 대한 설명입니다." headline="Q. 승률 신뢰구간이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">**승률 신뢰구간**</Tooltip>: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
 
 ---
 
@@ -65,7 +65,12 @@ description: "내 매매 데이터를 분석해 전략 별 성과와 주요 손�
 해당 전략의 모든 거래들의 분포를 확인하면 일부의 행운이 전체 성과를 만든 건 아닌지 파악할 수 있어요.
 
 - **거래별 R-Multiple 분포**: 전체 거래를 R 구간 별로 분류한 그래프입니다.
-- **분포 통계**: a. 최대 수익 b. 최대 손실 c. 중앙값 d. 왜도(Skew): e. <Tooltip tip="값이 높을수록 행운에 의존한 위험 전략이고 낮을수록 여러 거래에 수익이 분산된 안정적인 전략입니다." headline="아웃라이어 의존도란?">아웃라이어 의존도</Tooltip>: 누적 수익 중 상위 3개 거래가 차지하는 비율입니다.
+- **분포 통계**:
+  - 최대 수익: 
+  - 최대 손실: 
+  - 중앙값: 
+  - 왜도(Skew):
+  -  <Tooltip tip="값이 높을수록 행운에 의존한 위험 전략이고 낮을수록 여러 거래에 수익이 분산된 안정적인 전략입니다." headline="아웃라이어 의존도란?">아웃라이어 의존도</Tooltip>: 누적 수익 중 상위 3개 거래가 차지하는 비율입니다.
 
 #### Q. 왜 이 지표가 중요한가요?
 
