@@ -54,9 +54,13 @@ description: "내 매매 데이터를 분석해 전략 별 성과와 주요 손�
 
 단순 거래 승률보다 더 신뢰도 높은 지표로 전략의 유효성을 검증할 수 있어요.
 
-- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">**기댓값(Expectancy)**</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
+<Tip>
+  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/concept#기댓값-expectancy)를 꼭 확인해 보세요
+</Tip>
+
+- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept#기댓값-expectancy" href="https://docs.tradex.so/etc/concept#기댓값-expectancy">**기댓값(Expectancy)**</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
 - **표본 신뢰도**: 거래 횟수에 따른 전략의 유효성을 검증을 위한 지표입니다. 만약 해당 전략으로 실행한 거래의 횟수가 적다면 승률과 기대값이 높더라도 운이 좋았을 가능성이 높습니다.
-- <Tooltip tip="승률 신뢰구간의 개념에 대한 설명입니다." headline="Q. 승률 신뢰구간이 무엇인가요?" cta="https://docs.tradex.so/etc/concept" href="https://docs.tradex.so/etc/concept">**승률 신뢰구간**</Tooltip>: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
+- **승률 신뢰구간**: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
 
 **Q. 왜 이 지표가 중요한가요?**
 
@@ -72,13 +76,12 @@ A. 만약 기댓값이 음수라면 해당 전략은 장기적으로 돈을 벌 
 
 해당 전략의 모든 거래들의 분포를 확인하면 일부의 행운이 전체 성과를 만든 건 아닌지 파악할 수 있어요.
 
-- **거래별 R-Multiple 분포**: 전체 거래를 R 구간 별로 분류한 그래프입니다.
-- **분포 통계**:
-  - 최대 수익:
-  - 최대 손실:
-  - 중앙값:
-  - 왜도(Skew):
-  - <Tooltip tip="값이 높을수록 행운에 의존한 위험 전략이고 낮을수록 여러 거래에 수익이 분산된 안정적인 전략입니다." headline="아웃라이어 의존도란?">아웃라이어 의존도</Tooltip>: 누적 수익 중 상위 3개 거래가 차지하는 비율입니다.
+<Tip>
+  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/r-multiple#r-multiple-분포)를 꼭 확인해 보세요
+</Tip>
+
+- <Tooltip tip="R-Multiple과 아웃라이어의 개념에 대한 설명입니다." headline="R-Multiple 분포가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple#r-multiple-분포" href="https://docs.tradex.so/etc/r-multiple#r-multiple-분포">**R-Multiple 분포**</Tooltip>: 전체 거래를 R 구간 별로 분류한 그래프입니다.
+- <Tooltip tip="4가지 데이터 개념에 대한 설명입니다." headline="분포 통계 데이터가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple#분포에서-확인-가능한-지표-4가지" href="https://docs.tradex.so/etc/r-multiple#분포에서-확인-가능한-지표-4가지">**분포 통계**</Tooltip>: 최대 수익과 손실, 중앙값과 왜도, 아웃라이어 의존도를 확인할 수 있습니다.
 
 **Q. 왜 이 지표가 중요한가요?**
 
@@ -127,7 +130,7 @@ A. 그래프의 막대가 오른쪽으로 길게 분포되어 있으면 좋은 �
 - **10거래 롤링 기대값**: 최근에 발생한 10건 거래의 평균 기댓값을 보여주는 그래프입니다. 초록색 평균 선보다 위에 있다면 최근에도 전략이 잘 작동하고 있다는 의미이며, 아래에 있다면 최근 전략이 제대로 먹히지 않고 있다는 것을 의미합니다.
 - **수수료 및 펀딩비 영향**: 거래 수익에서 수수료와 펀딩비 영향을 제외했을 때의 순 기댓값입니다.
 
-#### Q. 왜 이 지표가 중요한가요?
+**Q. 왜 이 지표가 중요한가요?**
 
 금융 시장은 변화가 빠르기 때문에 과거에 좋은 성과를 기록한 전략이 최근에는 잘 먹히지 않을 수도 있어요. 평균 기댓값과 최근 거래의 기댓값을 비교하고 전략의 유효성을 검증해 보세요.
 
