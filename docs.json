@@ -46,8 +46,8 @@
             "group": "기타",
             "pages": [
               "etc/concept",
-              "etc/faq",
-              "etc/r-multiple"
+              "etc/r-multiple",
+              "etc/faq"
             ]
           }
         ]
