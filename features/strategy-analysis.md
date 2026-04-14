@@ -55,10 +55,10 @@ description: "내 매매 데이터를 분석해 전략 별 성과와 주요 손�
 단순 거래 승률보다 더 신뢰도 높은 지표로 전략의 유효성을 검증할 수 있어요.
 
 <Tip>
-  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/concept#기댓값-expectancy)를 꼭 확인해 보세요
+  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/expectancy)를 꼭 확인해 보세요
 </Tip>
 
-- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/concept#기댓값-expectancy" href="https://docs.tradex.so/etc/concept#기댓값-expectancy">**기댓값(Expectancy)**</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
+- <Tooltip tip="기댓값과 R의 개념에 대한 설명입니다." headline="Q. 기댓값이 무엇인가요?" cta="https://docs.tradex.so/etc/expectancy" href="https://docs.tradex.so/etc/expectancy">**기댓값(Expectancy)**</Tooltip>: 거래 한 번에 평균적으로 얼마를 버는지를 R 단위로 표시한 값입니다. 이 때 R은 한 번의 거래에서 트레이더가 감수하는 리스크의 단위입니다.
 - **표본 신뢰도**: 거래 횟수에 따른 전략의 유효성을 검증을 위한 지표입니다. 만약 해당 전략으로 실행한 거래의 횟수가 적다면 승률과 기대값이 높더라도 운이 좋았을 가능성이 높습니다.
 - **승률 신뢰구간**: 현재의 승률을 얼마나 믿을 수 있는지 알려주는 지표입니다. 앞으로의 승률 범위를 95% 확률로 예상할 수 있습니다.
 
@@ -77,11 +77,11 @@ A. 만약 기댓값이 음수라면 해당 전략은 장기적으로 돈을 벌 
 해당 전략의 모든 거래들의 분포를 확인하면 일부의 행운이 전체 성과를 만든 건 아닌지 파악할 수 있어요.
 
 <Tip>
-  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/r-multiple#r-multiple-분포)를 꼭 확인해 보세요
+  전략 분석과 인사이트 활용도를 높이기 위해 [**개념에 대한 가이드 문서**](https://docs.tradex.so/etc/r-multiple)를 꼭 확인해 보세요
 </Tip>
 
-- <Tooltip tip="R-Multiple과 아웃라이어의 개념에 대한 설명입니다." headline="R-Multiple 분포가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple#r-multiple-분포" href="https://docs.tradex.so/etc/r-multiple#r-multiple-분포">**R-Multiple 분포**</Tooltip>: 전체 거래를 R 구간 별로 분류한 그래프입니다.
-- <Tooltip tip="4가지 데이터 개념에 대한 설명입니다." headline="분포 통계 데이터가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple#분포에서-확인-가능한-지표-4가지" href="https://docs.tradex.so/etc/r-multiple#분포에서-확인-가능한-지표-4가지">**분포 통계**</Tooltip>: 최대 수익과 손실, 중앙값과 왜도, 아웃라이어 의존도를 확인할 수 있습니다.
+- <Tooltip tip="R-Multiple과 아웃라이어의 개념에 대한 설명입니다." headline="R-Multiple 분포가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple" href="https://docs.tradex.so/etc/r-multiple">**R-Multiple 분포**</Tooltip>: 전체 거래를 R 구간 별로 분류한 그래프입니다.
+- <Tooltip tip="4가지 데이터 개념에 대한 설명입니다." headline="분포 통계 데이터가 무엇인가요?" cta="https://docs.tradex.so/etc/r-multiple" href="https://docs.tradex.so/etc/r-multiple">**분포 통계**</Tooltip>: 최대 수익과 손실, 중앙값과 왜도, 아웃라이어 의존도를 확인할 수 있습니다.
 
 **Q. 왜 이 지표가 중요한가요?**
 
