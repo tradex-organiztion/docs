@@ -7,7 +7,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
 ## 공식 지원 거래소
 
-현재 트레이덱스는 세 가지 글로벌 거래소를 지원하고 있어요.\
+현재 트레이덱스는 글로벌 Top 5 거래소를 지원하고 있어요.\
 곧 업데이트를 통해 더 많은 거래소를 지원할 예정입니다.
 
 <Frame>
@@ -19,6 +19,8 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 | 바이낸스 | API Key, API Secret |
 | 바이비트 | API Key, API Secret |
 | 비트겟 | API Key, API Secret, Passphrase |
+| OKX | API Key, API Secret, Passphrase |
+| Gate.io | API Key, API Secret |
 
 <Tooltip tip="현재 트레이덱스는 세 가지 거래소만 지원하고 있습니다. 트레이덱스 채널을 통해 사용 거래소를 공유해주시면 빠르게 업데이트 후 공유드릴게요. " cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. 다른 거래소를 사용 중인데 트레이덱스를 사용하고 싶어요</Tooltip>
 
@@ -144,11 +146,116 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
     </Frame>
 
     4. API 이름을 자유롭게 입력해 주세요.
-    5. <Tooltip tip="평소 자주 사용하는 암호를 입력해 주세요." headline="Passphrase는 API 비밀번호입니다.">Passphrase를 입력해 주세요.</Tooltip>
-    6. 권한 설정에서 **Read-Only** 항목과 **Select all**을 선택해 모든 항목을 선택해 주세요.
-    7. **Bind IP Addresses** 항목은 비워두셔도 됩니다.
+    5. 권한 설정에서 **Read-Only** 항목과 **Select all**을 선택해 모든 항목을 선택해 주세요.
+    6. **Bind IP Addresses** 항목은 비워두셔도 됩니다.
+    7. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
+    8. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+
+    <Danger>
+      **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**\
+      (만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
+    </Danger>
+  </Tab>
+  <Tab title="OKX">
+    ## OKX
+
+    OKX 계정 연동을 위해서는 **API Key**, **API Secret**, **Passphrase** 세 가지 정보가 필요해요.
+
+    <Frame>
+      ![\[바이비트\] 1](/images/[바이비트]-1.png)
+    </Frame>
+
+    1. OKX 로그인 후 **우측 상단 프로필**을 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 6](/images/[바이비트]-6.png)
+    </Frame>
+
+    2. **API and connections** 페이지를 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 7](/images/[바이비트]-7.png)
+    </Frame>
+
+    3.  우측 상단에서 **Create New Key** 버튼을 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 9](/images/[바이비트]-9.png)
+    </Frame>
+
+    4. API 이름을 자유롭게 입력해 주세요.
+    5. **Permissions** 설정에서 **Read** 항목을 선택해 주세요.
+    6. **Trusted IP access** 항목은 비워두셔도 됩니다.
+    7. **Passphrase** 항목을 자주 사용하시는 비밀번호로 입력 후 기록해 주세요.
     8. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
-    9. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    9. **API Key**와 **Secret Key**, **Passphrase**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+
+    <Danger>
+      **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**\
+      (만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
+    </Danger>
+  </Tab>
+  <Tab title="Gate.io">
+    ## Gate.io
+
+    Gate.io 계정 연동을 위해서는 **API Key**, **API Secret** 두 가지 정보가 필요해요.
+
+    <Frame>
+      ![\[바이비트\] 1 1](/images/[바이비트]-1-1.png)
+    </Frame>
+
+    1. 게이트 아이오 로그인 후 **우측 상단 프로필**을 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 2](/images/[바이비트]-2.png)
+    </Frame>
+
+    2. **API Management** 페이지를 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 3](/images/[바이비트]-3.png)
+    </Frame>
+
+    3. 우측 상단의 Create API Key를 클릭해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 4](/images/[바이비트]-4.png)
+    </Frame>
+
+    4. 계정 유형을 Trading Account로 선택해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 9 1](/images/[바이비트]-9-1.png)
+    </Frame>
+
+    5. API 이름을 자유롭게 입력해 주세요.
+    6. **IP Permissions**를 **Later**로 설정해 주세요.
+    7. **API Ket Type**을 **API v4 Key**로 설정해 주세요.
+    8. **Permissions**를 전부 허용하고 **Read-Only** 항목을 선택해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 8](/images/[바이비트]-8.png)
+    </Frame>
+
+    9. **Submit**을 클릭해 제출해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 6 1](/images/[바이비트]-6-1.png)
+    </Frame>
+
+    10. 약관에 동의해 주세요.
+
+    <Frame>
+      ![\[바이비트\] 5](/images/[바이비트]-5.png)
+    </Frame>
+
+    11. 보안 인증을 완료하면 **API Key 생성이 완료**됩니다.
+
+    <Frame>
+      ![\[바이비트\] 7 2](/images/[바이비트]-7-2.png)
+    </Frame>
+
+    12. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**\
