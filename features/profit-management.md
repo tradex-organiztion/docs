@@ -55,4 +55,4 @@ hidden: true
 
 ---
 
-→ [자주 묻는 질문](../faq/faq.md)
+→ [자주 묻는 질문](/etc/faq)

@@ -1,0 +1,249 @@
+---
+title: "Connect an Exchange API"
+description: "Learn how to create an API key on each exchange and connect it to Tradex."
+---
+
+---
+
+## Supported Exchanges
+
+Tradex currently supports the global top 5 exchanges.<br />Support for more exchanges is coming in upcoming updates.
+
+| Exchange | Required credentials |
+| :-- | :-- |
+| Binance | API Key, API Secret |
+| Bybit | API Key, API Secret |
+| Bitget | API Key, API Secret, Passphrase |
+| OKX | API Key, API Secret, Passphrase |
+| Gate.io | API Key, API Secret |
+
+<Tooltip tip="Let us know which exchange you use via the Tradex support channel and we'll prioritize adding it. " cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. My exchange isn't listed — can I still use Tradex?</Tooltip>
+
+---
+
+## Creating and Connecting an API Key per Exchange
+
+<Note>
+  Tradex only requests **read-only** permissions, so it **cannot place trades or access your funds — your account stays safe.**
+</Note>
+
+<Tabs>
+  <Tab title="Binance">
+    ## Binance
+
+    To connect a Binance account, you need two credentials: an **API Key** and an **API Secret**.
+
+    <Frame>
+      ![\[Binance\]1](/images/[바이낸스]1.png)
+    </Frame>
+
+    1. Log in to Binance, then open your profile at the top right and click **Account**.
+
+    <Frame>
+      ![\[Binance\]2](/images/[바이낸스]2.png)
+    </Frame>
+
+    2. On the **API Management** page, click the **Create API** button at the top right.
+
+    <Frame>
+      ![\[Binance\]3](/images/[바이낸스]3.png)
+    </Frame>
+
+    3. For the API type, select **System generated** at the top.
+
+    <Frame>
+      ![\[Binance\[4](/images/[바이낸스[4.png)
+    </Frame>
+
+    4. Enter any name for the API and complete the verification.
+
+    <Frame>
+      ![\[Binance\]5](/images/[바이낸스]5.png)
+    </Frame>
+
+    5. Select **Enable Reading** as shown above, and the API key is created.
+    6. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
+
+    <Danger>
+      **The Secret Key is only shown once, at creation time — make sure to save it.**<br />(If you lose the key, create a new one and reconnect.)
+    </Danger>
+  </Tab>
+  <Tab title="Bybit">
+    ## Bybit
+
+    To connect a Bybit account, you need two credentials: an **API Key** and an **API Secret**.
+
+    <Frame>
+      ![\[Bybit\]1](/images/[바이비트]1.png)
+    </Frame>
+
+    1. Log in to Bybit, then open your profile at the top right and click **API**.
+
+    <Frame>
+      ![\[Bybit\]2 1](/images/[바이비트]2-1.png)
+    </Frame>
+
+    2. On the **API Management** page, click the **Create New Key** button at the top right.
+
+    <Frame>
+      ![\[Bybit\]3](/images/[바이비트]3.png)
+    </Frame>
+
+    3. For the API type, select **System-generated API Keys** at the top.
+
+    <Frame>
+      ![\[Bybit\]4](/images/[바이비트]4.png)
+    </Frame>
+
+    4. Select **API Transaction**.
+    5. Enter any name for the API.
+    6. In the permission settings, select **Read-Only** and **No IP restriction**.
+
+    <Frame>
+      ![\[Bybit\]6](/images/[바이비트]6.png)
+    </Frame>
+
+    7. Check every item exactly as shown in the screenshot.
+    8. Submit and complete the verification, and the API key is created.
+    9. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
+
+    <Danger>
+      **The Secret Key is only shown once, at creation time — make sure to save it.**<br />(If you lose the key, create a new one and reconnect.)
+    </Danger>
+  </Tab>
+  <Tab title="Bitget">
+    ## Bitget
+
+    To connect a Bitget account, you need three credentials: an **API Key**, an **API Secret**, and a **Passphrase**.
+
+    <Frame>
+      ![\[Bitget\]1](/images/[비트겟]1.png)
+    </Frame>
+
+    1. Log in to Bitget, then open your profile at the top right and click **API Keys**.
+
+    <Frame>
+      ![\[Bitget\]2 1](/images/[비트겟]2-1.png)
+    </Frame>
+
+    2. On the **API Keys** page, click the **Create New Key** button at the top right.
+
+    <Frame>
+      ![\[Bitget\]3](/images/[비트겟]3.png)
+    </Frame>
+
+    3. For the API type, select **System-generated API Key** at the top.
+
+    <Frame>
+      ![\[Bitget\]4](/images/[비트겟]4.png)
+    </Frame>
+
+    4. Enter any name for the API.
+    5. In the permission settings, select **Read-Only** and click **Select all** to check every item.
+    6. You can leave the **Bind IP Addresses** field empty.
+    7. Submit and complete the verification, and the API key is created.
+    8. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
+
+    <Danger>
+      **The Secret Key is only shown once, at creation time — make sure to save it.**<br />(If you lose the key, create a new one and reconnect.)
+    </Danger>
+  </Tab>
+  <Tab title="OKX">
+    ## OKX
+
+    To connect an OKX account, you need three credentials: an **API Key**, an **API Secret**, and a **Passphrase**.
+
+    <Frame>
+      ![\[OKX\] 1](/images/[바이비트]-1.png)
+    </Frame>
+
+    1. Log in to OKX and click your **profile at the top right**.
+
+    <Frame>
+      ![\[OKX\] 6](/images/[바이비트]-6.png)
+    </Frame>
+
+    2. Click the **API and connections** page.
+
+    <Frame>
+      ![\[OKX\] 7](/images/[바이비트]-7.png)
+    </Frame>
+
+    3. Click the **Create New Key** button at the top right.
+
+    <Frame>
+      ![\[OKX\] 9](/images/[바이비트]-9.png)
+    </Frame>
+
+    4. Enter any name for the API.
+    5. Under **Permissions**, select **Read**.
+    6. You can leave the **Trusted IP access** field empty.
+    7. Set a **Passphrase** you'll remember, and write it down.
+    8. Submit and complete the verification, and the API key is created.
+    9. Copy and save your **API Key**, **Secret Key**, and **Passphrase**, then enter them when connecting your exchange in Tradex.
+
+    <Danger>
+      **The Secret Key is only shown once, at creation time — make sure to save it.**<br />(If you lose the key, create a new one and reconnect.)
+    </Danger>
+  </Tab>
+  <Tab title="Gate">
+    ## Gate
+
+    To connect a Gate account, you need two credentials: an **API Key** and an **API Secret**.
+
+    <Frame>
+      ![\[Gate\] 1 1](/images/[바이비트]-1-1.png)
+    </Frame>
+
+    1. Log in to Gate.io and click your **profile at the top right**.
+
+    <Frame>
+      ![\[Gate\] 2](/images/[바이비트]-2.png)
+    </Frame>
+
+    2. Click the **API Management** page.
+
+    <Frame>
+      ![\[Gate\] 3](/images/[바이비트]-3.png)
+    </Frame>
+
+    3. Click **Create API Key** at the top right.
+
+    <Frame>
+      ![\[Gate\] 4 (1)](/images/[바이비트]-4-\(1\).png)
+    </Frame>
+
+    4. Set the account type to **Third-Party App**.
+
+    <Frame>
+      ![\[Gate\] 9 2](/images/[바이비트]-9-2.png)
+    </Frame>
+
+    <Frame>
+      ![\[Gate\] 8 (1) 1](/images/[바이비트]-8-\(1\)-1.png)
+    </Frame>
+
+    5. Enter any name for the API.
+    6. Set **IP Permissions** to **Later**.
+    7. Set the **API Key Type** to **API v4 Key**.
+    8. Under **Permissions**, enable **Perpetual Futures** and **Margin Trading (Unified Account)**, and select **Read-Only**.<br />(If you also want to record spot trading data, enable Spot Trading as well.)
+    9. Click **Submit**.
+
+    <Frame>
+      ![\[Gate\] 6 (2)](/images/[바이비트]-6-\(2\).png)
+    </Frame>
+
+    10. Agree to the terms.
+
+    <Frame>
+      ![\[Gate\] 7 (1)](/images/[바이비트]-7-\(1\).png)
+    </Frame>
+
+    11. Complete the security verification and the **API key is created**.
+    12. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
+
+    <Danger>
+      **The Secret Key is only shown once, at creation time — make sure to save it.**<br />(If you lose the key, create a new one and reconnect.)
+    </Danger>
+  </Tab>
+</Tabs>

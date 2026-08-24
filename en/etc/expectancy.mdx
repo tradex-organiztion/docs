@@ -1,0 +1,151 @@
+---
+title: "Expectancy and R"
+description: "An explanation of expectancy, R, and related concepts used in strategy analysis."
+---
+
+---
+
+## Expectancy
+
+Expectancy is the single most important piece of data for telling whether a strategy actually makes money — it looks at average profit, not win rate. In short, it tells you **how much you earn per trade, on average, with this strategy**.
+
+---
+
+### The Coin-Flip Game
+
+Let's play a simple coin-flip game with these rules:
+
+- Heads: \+$200
+- Tails: -$100
+
+The win rate is obviously 50%. But what happens if you play this game 100 times?
+
+```text
+A. 50 wins × $200 = +$10,000
+B. 50 losses × $100 = -$5,000
+```
+
+Add the total gains (A) and total losses (B) and you get \+$5,000. Divide by the number of games and you get \+$50 per game. That \+$50 is the expectancy.
+
+It means **every time you play this game, you earn $50 on average over the long run**.
+
+Now let's keep the same game but change the payouts:
+
+- Heads: \+$100
+- Tails: -$150
+
+The win rate is still 50%, but the expectancy is -$25. In other words, even with the same win rate, this is a game you are **guaranteed to lose**.
+
+Starting to make sense?
+
+---
+
+### How to Read Expectancy
+
+Here's how to interpret your per-trade expectancy. If your expectancy is \+0.42R, read it like this:
+
+> **"Every time I trade, I earn on average 42% of the risk (SL) I took on."**
+
+If you risk $1,000 on every trade, the results look like this:
+
+- **\+$420** per trade on average
+- **\+$42,000** over 100 trades, **\+$420,000** expected over 1,000 trades
+
+Of course, you don't earn exactly $420 every time. One trade might make \+$2,000 and another might lose -$1,000 — but the average converges to \+$420.
+
+---
+
+### Expectancy Benchmarks
+
+| Expectancy | Meaning | What to do |
+| :-- | :-- | :-- |
+| **\+0.5R or higher** | Very strong strategy | Scale up your size and run it seriously |
+| **\+0.2 – \+0.5R** | Stable, profitable strategy | Stay consistent and increase trade count |
+| **0 – \+0.2R** | Near break-even | Improve your R/R or entry accuracy |
+| **Negative** | Losing strategy | Stop immediately; analyze the cause or change strategy |
+
+---
+
+### 3 Ways to Improve Expectancy
+
+1. **Raise your win rate**: Make your entry conditions stricter to improve accuracy.
+2. **Raise your average win**: Improve your R/R by holding winners longer before taking profit.
+3. **Cut your average loss**: On losing positions, stop out exactly as planned — no exceptions.
+
+Most traders obsess over #1. But improving #2 and #3 is far easier and far more effective.
+
+**Keep a 50% win rate and simply move your R/R from 1:1 to 1:2, and your expectancy jumps from 0 to \+0.5R.**
+
+---
+
+## R
+
+R is the unit of risk you take on in a trade — put simply, the distance to your stop-loss.
+
+**Case 1. Trader A**
+
+- Enters a Bitcoin long at $90,000
+- Stop-loss (SL): $89,000
+
+If A stops out, they lose $1,000. In other words, the risk taken in this trade is **1R = $1,000**. Now let's express the outcomes in R:
+
+- Take profit at $91,000 → made $1,000, so **\+1R**
+- Take profit at $91,500 → made $1,500, so **\+1.5R**
+- Take profit at $92,000 → made $2,000, so **\+2R**
+- Stop out at $89,000 → lost $1,000, so **-1R**
+
+---
+
+## Why Express Things in R?
+
+You could express expectancy in plain dollars. But expressing it in R lets you **compare every trade on equal footing**.
+
+Suppose trader A made these three trades:
+
+| Trade | Symbol | Leverage | PnL | Return | Risk at stop |
+| :-- | :-- | :-- | :-- | :-- | --- |
+| A | BTC | 5x | \+$2,000 | \+5% | $1,000 |
+| B | ETH | 20x | \+$750 | \+20% | $500 |
+| C | SOL | 2x | -$300 | -1.5% | $300 |
+
+In dollar terms — \+2,000 / \+750 / -300 — it's hard to tell which trade was most efficient.
+
+But in R terms — **\+2R / \+1.5R / -1R** — it's immediately clear the first was the most efficient.
+
+Trader A's average expectancy is \+0.83R, meaning **A earns 83% of their chosen stop-loss risk per trade**.
+
+---
+
+### The Win-Rate Trap
+
+Expressed in R, expectancy follows this formula:
+
+```text
+Expectancy (R) = (win rate × average win in R) - (loss rate × average loss in R)
+```
+
+**Case 1: A good trader**
+
+- 40% win rate, average win \+2.5R
+- 60% loss rate, average loss -1R
+- Expectancy = (0.4 × 2.5) - (0.6 × 1) = **\+0.4R**
+
+Even with just a 40% win rate, they earn 0.4R per trade on average. Over 100 trades, that's an expected \+40R.
+
+**Case 2: A dangerous trader**
+
+- 70% win rate, average win \+0.8R
+- 30% loss rate, average loss -2.5R
+- Expectancy = (0.7 × 0.8) - (0.3 × 2.5) = **-0.19R**
+
+A trader with a 70% win rate who **loses money**. Small frequent wins, occasional huge losses.
+
+**This is the win-rate trap — and exactly why expectancy matters more than win rate.**
+
+Stop being fooled by win rates. With positive expectancy you survive, with negative expectancy you lose — every time.
+
+---
+
+### Relationship to Risk/Reward
+
+This R concept is the foundation of expressions traders use all the time, like a **1:2 risk/reward ratio**. R/R of 1:2 = risking 1R to make 2R = an R/R ratio of 2.0. In other words, you risk losing 1 to your stop for the chance to make 2 at your target.

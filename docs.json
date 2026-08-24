@@ -9,45 +9,97 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "가이드",
-        "groups": [
+        "language": "ko",
+        "tabs": [
           {
-            "group": "서비스 소개",
-            "pages": [
-              "introduction/overview",
-              "introduction/event"
+            "tab": "가이드",
+            "groups": [
+              {
+                "group": "서비스 소개",
+                "pages": [
+                  "introduction/overview",
+                  "introduction/event"
+                ]
+              },
+              {
+                "group": "시작하기",
+                "pages": [
+                  "getting-started/signup",
+                  "getting-started/connect-exchange",
+                  "getting-started/settings",
+                  "getting-started/plan"
+                ]
+              },
+              {
+                "group": "핵심 기능",
+                "pages": [
+                  "features/home-inbox",
+                  "features/trading-principles",
+                  "features/tradex-ai",
+                  "features/trading-journal",
+                  "features/strategy-analysis",
+                  "features/risk-analysis",
+                  "features/advanced-charts",
+                  "features/profit-management"
+                ]
+              },
+              {
+                "group": "기타",
+                "pages": [
+                  "etc/expectancy",
+                  "etc/r-multiple",
+                  "etc/faq"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "tabs": [
           {
-            "group": "시작하기",
-            "pages": [
-              "getting-started/signup",
-              "getting-started/connect-exchange",
-              "getting-started/settings",
-              "getting-started/plan"
-            ]
-          },
-          {
-            "group": "핵심 기능",
-            "pages": [
-              "features/home-inbox",
-              "features/trading-principles",
-              "features/tradex-ai",
-              "features/trading-journal",
-              "features/strategy-analysis",
-              "features/risk-analysis",
-              "features/advanced-charts",
-              "features/profit-management"
-            ]
-          },
-          {
-            "group": "기타",
-            "pages": [
-              "etc/expectancy",
-              "etc/r-multiple",
-              "etc/faq"
+            "tab": "Guide",
+            "groups": [
+              {
+                "group": "Introduction",
+                "pages": [
+                  "en/introduction/overview",
+                  "en/introduction/event"
+                ]
+              },
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "en/getting-started/signup",
+                  "en/getting-started/connect-exchange",
+                  "en/getting-started/settings",
+                  "en/getting-started/plan"
+                ]
+              },
+              {
+                "group": "Core Features",
+                "pages": [
+                  "en/features/home-inbox",
+                  "en/features/trading-principles",
+                  "en/features/tradex-ai",
+                  "en/features/trading-journal",
+                  "en/features/strategy-analysis",
+                  "en/features/risk-analysis",
+                  "en/features/advanced-charts",
+                  "en/features/profit-management"
+                ]
+              },
+              {
+                "group": "Concepts",
+                "pages": [
+                  "en/etc/expectancy",
+                  "en/etc/r-multiple",
+                  "en/etc/faq"
+                ]
+              }
             ]
           }
         ]

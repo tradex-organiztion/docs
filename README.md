@@ -12,4 +12,4 @@
 - [서비스 소개](introduction/overview.md)
 - [시작하기](getting-started/signup.md)
 - [핵심 기능](features/home-inbox.md)
-- [자주 묻는 질문](faq/faq.md)
+- [자주 묻는 질문](etc/faq.md)
