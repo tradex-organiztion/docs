@@ -71,4 +71,4 @@ hidden: true
 
 ---
 
-→ [Tradex AI 활용하기](tradex-ai.md)
+→ [Tradex AI 활용하기](/features/tradex-ai)
