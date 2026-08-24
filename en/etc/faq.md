@@ -34,7 +34,7 @@ A. The Tradex open beta event is scheduled to end on June 30, subject to change.
 A. Yes, you can upgrade or downgrade at any time. When upgrading, the remaining period is prorated and only the difference is charged.
 
 **Q. Can I get a refund?**\
-A. Because Tradex remains available for the full contract period regardless of whether you use it, paid subscription fees are in principle non-refundable. There are exceptions where a refund is possible — see the Terms of Service for details.
+A. Because Tradex remains available for the full contract period regardless of whether you use it, paid subscription fees are in principle non-refundable. There are exceptions where a refund is possible — see the [Terms of Service](https://tradex.so/en/terms) for details.
 
 **Q. If I cancel my subscription, is my data deleted?**\
 A. No. Your journal data is kept even after you cancel. If you subscribe again later, you can pick up right where you left off.
