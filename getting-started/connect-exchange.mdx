@@ -17,7 +17,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 | OKX | API Key, API Secret, Passphrase |
 | Gate.io | API Key, API Secret |
 
-<Tooltip tip="현재 트레이덱스는 세 가지 거래소만 지원하고 있습니다. 트레이덱스 채널을 통해 사용 거래소를 공유해주시면 빠르게 업데이트 후 공유드릴게요. " cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. 다른 거래소를 사용 중인데 트레이덱스를 사용하고 싶어요</Tooltip>
+<Tooltip tip="사용 중인 거래소가 목록에 없다면 트레이덱스 채널로 알려주세요. 빠르게 지원을 추가할게요." cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. 다른 거래소를 사용 중인데 트레이덱스를 사용하고 싶어요</Tooltip>
 
 ---
 
@@ -26,6 +26,13 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 <Note>
   트레이덱스는 **읽기 전용(Read-Only)** 권한만 가져오기 때문에 **실제 거래나 계좌에 접근할 수 없어 보안상 안전합니다.**
 </Note>
+
+<Warning>
+  **IP 화이트리스트 등록을 권장해요.** 거래소에서 API 키에 IP 접근 제한을 설정하는 경우,
+  트레이덱스 서버 IP **`3.36.183.125`** 를 반드시 등록해야 연동이 유지됩니다.
+  일부 거래소는 IP 제한이 없는 키를 일정 기간 후 자동 만료시킵니다
+  (바이비트 90일, OKX 는 14일 미사용 시). IP 를 등록해 두면 만료 없이 안정적으로 유지돼요.
+</Warning>
 
 <Tabs>
   <Tab title="바이낸스">
@@ -61,8 +68,8 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
       ![\[바이낸스\]5](/images/[바이낸스]5.png)
     </Frame>
 
-    5. 위 사진과 같이 **Enable Reading** 항목을 선택하면 API 생성이 완료됩니다.
-    6. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    5. 위 사진과 같이 **Enable Reading** 항목과 함께 **Enable Futures** 권한을 켜 주세요. 선물 권한이 없으면 연동에 실패할 수 있어요.
+    6. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스에서 거래소 연동 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**<br />(만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
@@ -71,7 +78,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
   <Tab title="바이비트">
     ## 바이비트
 
-    바이낸스 계정 연동을 위해서는 **API Key**, **API Secret** 두 가지 정보가 필요해요.
+    바이비트 계정 연동을 위해서는 **API Key**, **API Secret** 두 가지 정보가 필요해요.
 
     <Frame>
       ![\[바이비트\]1](/images/[바이비트]1.png)
@@ -97,7 +104,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
     4. **API Transaction** 항목을 선택해 주세요.
     5. API 이름을 자유롭게 입력해 주세요.
-    6. 권한 설정에서 **Read-Only** 항목과 **No IP restriction** 항목을 선택해 주세요.
+    6. 권한 설정에서 **Read-Only** 항목을 선택해 주세요. IP 제한을 사용하려면 트레이덱스 서버 IP(**3.36.183.125**)를 등록해 주세요. IP 제한이 없는 키는 90일 후 자동 만료되니 등록을 권장해요.
 
     <Frame>
       ![\[바이비트\]6](/images/[바이비트]6.png)
@@ -105,7 +112,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
     7. 사진과 동일하게 전체 항목을 체크해 주세요.
     8. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
-    9. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    9. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스에서 거래소 연동 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**<br />(만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
@@ -140,9 +147,9 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
     4. API 이름을 자유롭게 입력해 주세요.
     5. 권한 설정에서 **Read-Only** 항목과 **Select all**을 선택해 모든 항목을 선택해 주세요.
-    6. **Bind IP Addresses** 항목은 비워두셔도 됩니다.
+    6. **Bind IP Addresses** 항목에 트레이덱스 서버 IP(**3.36.183.125**) 등록을 권장해요. (비워둬도 연동은 되지만 키 관리상 등록이 안전합니다)
     7. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
-    8. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    8. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스에서 거래소 연동 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**<br />(만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
@@ -177,10 +184,10 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
     4. API 이름을 자유롭게 입력해 주세요.
     5. **Permissions** 설정에서 **Read** 항목을 선택해 주세요.
-    6. **Trusted IP access** 항목은 비워두셔도 됩니다.
+    6. **Trusted IP access** 항목에 트레이덱스 서버 IP(**3.36.183.125**) 등록을 권장해요. (비워둬도 연동은 되지만 키 관리상 등록이 안전합니다)
     7. **Passphrase** 항목을 자주 사용하시는 비밀번호로 입력 후 기록해 주세요.
     8. 제출 후 인증을 완료하면 API 생성이 완료됩니다.
-    9. **API Key**와 **Secret Key**, **Passphrase**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    9. **API Key**와 **Secret Key**, **Passphrase**를 복사 및 기록하고 트레이덱스에서 거래소 연동 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**<br />(만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
@@ -225,7 +232,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
 
     5. API 이름을 자유롭게 입력해 주세요.
     6. **IP Permissions**를 **Later**로 설정해 주세요.
-    7. **API Ket Type**을 **API v4 Key**로 설정해 주세요.
+    7. **API Key Type**을 **API v4 Key**로 설정해 주세요.
     8. **Permissions**에서 **Perpetual Futures** 항목과 \*\*Margin Trading(Unifield Account)\*\*항목을 허용하고 **Read-Only** 항목을 선택해 주세요.<br />(Spot 거래 데이터를 기록하고 싶으시면 Spot Trading 항목도 허용해 주세요.)
     9. **Submit**을 클릭해 제출해 주세요.
 
@@ -240,7 +247,7 @@ description: "거래소 별 API 생성 방법을 확인하고 트레이덱스와
     </Frame>
 
     11. 보안 인증을 완료하면 **API Key 생성이 완료**됩니다.
-    12. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스 가입 시 입력해 주세요.
+    12. **API Key**와 **Secret Key**를 복사 및 기록하고 트레이덱스에서 거래소 연동 시 입력해 주세요.
 
     <Danger>
       **Secret Key는 최초 생성 시에만 확인 가능하니 반드시 저장해 주세요.**<br />(만약 키를 분실했다면, 재생성 후 다시 연동해 주세요.)
