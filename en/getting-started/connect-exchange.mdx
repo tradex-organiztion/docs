@@ -17,7 +17,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 | OKX | API Key, API Secret, Passphrase |
 | Gate.io | API Key, API Secret |
 
-<Tooltip tip="Let us know which exchange you use via the Tradex support channel and we'll prioritize adding it. " cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. My exchange isn't listed — can I still use Tradex?</Tooltip>
+<Tooltip tip="If your exchange isn't in the list, let us know via the Tradex channel — we'll add support quickly." cta="http://pf.kakao.com/_WxidEX/chat" href="http://pf.kakao.com/_WxidEX/chat">Q. My exchange isn't listed — can I still use Tradex?</Tooltip>
 
 ---
 
@@ -26,6 +26,13 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 <Note>
   Tradex only requests **read-only** permissions, so it **cannot place trades or access your funds — your account stays safe.**
 </Note>
+
+<Warning>
+  **We recommend registering an IP whitelist.** If you set an IP access restriction on your API key at
+  the exchange, you must register the Tradex server IP **`3.36.183.125`** or the connection will stop
+  working. Bybit automatically expires keys that have no IP restriction after 90 days — registering the
+  IP keeps your connection stable with no expiration.
+</Warning>
 
 <Tabs>
   <Tab title="Binance">
@@ -61,7 +68,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
       ![\[Binance\]5](/images/[바이낸스]5.png)
     </Frame>
 
-    5. Select **Enable Reading** as shown above, and the API key is created.
+    5. Also check **Enable Futures** next to **Enable Reading** — it isn't checked in the example screenshot, so toggle it separately. Without futures permission, the connection may fail.
     6. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
 
     <Danger>
@@ -97,7 +104,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 
     4. Select **API Transaction**.
     5. Enter any name for the API.
-    6. In the permission settings, select **Read-Only** and **No IP restriction**.
+    6. In the permission settings, select **Read-Only**. If you want to use an IP restriction, register the Tradex server IP (**3.36.183.125**). Keys with no IP restriction are automatically revoked after 90 days, so we recommend registering it.
 
     <Frame>
       ![\[Bybit\]6](/images/[바이비트]6.png)
@@ -140,7 +147,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 
     4. Enter any name for the API.
     5. In the permission settings, select **Read-Only** and click **Select all** to check every item.
-    6. You can leave the **Bind IP Addresses** field empty.
+    6. We recommend registering the Tradex server IP (**3.36.183.125**) under **Bind IP Addresses**. (You can leave it empty and still connect, but registering it is safer for key management.)
     7. Submit and complete the verification, and the API key is created.
     8. Copy and save your **API Key** and **Secret Key**, then enter them when connecting your exchange in Tradex.
 
@@ -177,7 +184,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 
     4. Enter any name for the API.
     5. Under **Permissions**, select **Read**.
-    6. You can leave the **Trusted IP access** field empty.
+    6. We recommend registering the Tradex server IP (**3.36.183.125**) under **Trusted IP access**. Registering it helps prevent the key from being used elsewhere. (You can leave it empty and still connect.)
     7. Set a **Passphrase** you'll remember, and write it down.
     8. Submit and complete the verification, and the API key is created.
     9. Copy and save your **API Key**, **Secret Key**, and **Passphrase**, then enter them when connecting your exchange in Tradex.
