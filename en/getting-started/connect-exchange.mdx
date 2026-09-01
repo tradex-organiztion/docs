@@ -30,9 +30,8 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 <Warning>
   **We recommend registering an IP whitelist.** If you set an IP access restriction on your API key at
   the exchange, you must register the Tradex server IP **`3.36.183.125`** or the connection will stop
-  working. Some exchanges automatically expire keys that have no IP restriction after a period of
-  inactivity (90 days on Bybit, 14 days on OKX). Registering the IP keeps your connection stable with
-  no expiration.
+  working. Bybit automatically expires keys that have no IP restriction after 90 days — registering the
+  IP keeps your connection stable with no expiration.
 </Warning>
 
 <Tabs>
@@ -185,7 +184,7 @@ Tradex currently supports the global top 5 exchanges.<br />Support for more exch
 
     4. Enter any name for the API.
     5. Under **Permissions**, select **Read**.
-    6. We recommend registering the Tradex server IP (**3.36.183.125**) under **Trusted IP access**. (You can leave it empty and still connect, but registering it is safer for key management.)
+    6. We recommend registering the Tradex server IP (**3.36.183.125**) under **Trusted IP access**. Registering it helps prevent the key from being used elsewhere. (You can leave it empty and still connect.)
     7. Set a **Passphrase** you'll remember, and write it down.
     8. Submit and complete the verification, and the API key is created.
     9. Copy and save your **API Key**, **Secret Key**, and **Passphrase**, then enter them when connecting your exchange in Tradex.
